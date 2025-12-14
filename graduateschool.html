@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>문정사랑</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+<style>
+        div.box {
+         background-color: #3d82ad;
+            padding: 15px;
+            font-size: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        div.box a {
+            color: white;             /* 링크 평상시 색 */
+            text-decoration: none;    /* 밑줄 제거 (선택) */
+        }
+
+        div.box a:hover {
+            color: #003852;           /* 마우스를 올렸을 때 색 (선택) */
+        }   
+
+        div.box2{
+            background-color: #92d2c1;
+            padding: 15px;
+        }
+
+        div.box3{
+            background-color: #e4edf3;
+            padding: 15px;
+
+        }
+
+        /* 대학원 리스트 링크 스타일 */
+        .grad-link {
+            color: black;            /* 글자색을 검정으로 */
+            text-decoration: none;   /* 밑줄 제거 */
+        }
+
+        .grad-link:hover {
+            color: black;
+            text-decoration: none;   /* 호버 시에도 밑줄 없게 */
+}
+
+
+    </style>
+<!--구글폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--네비게이션-->
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container">
+             <a class="gugi-font navbar-brand" href="index.html#home">문정사랑</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+                aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="navbar-nav ms-auto my-2">
+                    <li class="nav-item"><a class="nav-link" href="study.html">세부학문</a></li>
+                    <li class="nav-item"><a class="nav-link" href="course.html">진로</a></li>
+                    <li class="nav-item"><a class="nav-link" href="university.html">대학교</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#graduateschool">대학원</a></li>
+            </div>
+        </div>
+    </nav>
+
+<!--대학원-->
+    <section class="container py-5">
+        <div class="text-center py-5">
+            <h2 class="fw-bold">대학원</h2>
+            <hr/>
+        </div>
+
+        <div class="row justify-content-center align-items-center mb-5">
+            <div class="col-md-7 col-lg-10 px-lg-10">
+                <h4 class="fw-bold mb-3">문헌정보학 학위 취득시 이점</h4>
+                <p class="lh-lg">
+                    문헌정보학과 박사 학위를 취득할 경우, 대학/대학원 교수나 고급 연구자/학술정보 연구기관 연구원, 
+                    전문 아카이브/기록관리 책임자(수석 아카이비스트, 기록관리 관리자), 정보학/기록학 분야 정책 기획자 
+                    또는 고위 행정직(공공기관, 정부, 문화유산 기관 등),학술정보 서비스/콘텐츠 개발 리더가 되는데 유리합니다. 
+                    특히 문헌정보학과 박사 학위 취득시 심사를 통해 1급 정사서 자격을 얻을 수 있습니다. 
+                </p>
+                <br/><hr/>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center mb-5">
+            <div class="col-md-7 col-lg-10 px-lg-10">
+                <h4 class="fw-bold mb-3">대학원리스트</h4>
+                
+                
+                <div class="row justify-content-start g-4">
+
+                     <!--연세대학원 카드-->
+                    <div class="col-md-3">
+                        <div class="card">
+                            <a href="https://graduate.yonsei.ac.kr/graduate/index.do" class="link-clean">
+                            <img src="images/graduateschool1.jpg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="grad-link">연세대학교 대학원</h5>
+                                <p class="grad-link">석사, 박사</p>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!--성균관대학원 카드-->
+                    <div class="col-md-3">
+                        <div class="card">
+                            <a href="https://gradschool.skku.edu/grad/index.htm" class="link-clean">
+                            <img src="images/graduateschool2.jpg" class="card-img-top" alt="성균관대학교건물">
+                            <div class="card-body text-center">
+                                <h5 class="grad-link">성균관대학교 대학원</h5>
+                                <p class="grad-link">석사, 박사</p>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--중앙대학원 카드-->
+                    <div class="col-md-3">
+                        <div class="card">
+                            <a href="https://graduate.cau.ac.kr/graduate/index.do" class="link-clean">
+                            <img src="images/graduateschool3.jpg" class="card-img-top" alt="중앙대학교건물">
+                            <div class="card-body text-center">
+                                <h5 class="grad-link">중앙대학교 대학원</h5>
+                                <p class="grad-link">석사, 박사</p>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--서울여자대학원 카드-->
+                    <div class="col-md-3">
+                        <div class="card">
+                            <a href="https://www.swu.ac.kr/grdindex.do" class="link-clean">
+                            <img src="images/graduateschool4.jpg" class="card-img-top" alt="서울여자대학교건물">
+                            <div class="card-body text-center">
+                                <h5 class="grad-link">서울여자대학교 대학원</h5>
+                                <p class="grad-link">석사</p>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--건국여자대학원 카드-->
+                    <div class="col-md-3">
+                        <div class="card">
+                            <a href="https://grad.kku.ac.kr/index.do" class="link-clean">
+                            <img src="images/graduateschool5.jpg" class="card-img-top" alt="건국대학교건물">
+                            <div class="card-body text-center">
+                                <h5 class="grad-link">건국대학교 대학원</h5>
+                                <p class="grad-link">석사, 박사</p>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--이화여자대학원 카드-->
+                    <div class="col-md-3">
+                        <div class="card">
+                            <a href="https://graduate.ewha.ac.kr/graduate/index.do" class="link-clean">
+                            <img src="images/graduateschool4.jpg" class="card-img-top" alt="이화여자대학교건물">
+                            <div class="card-body text-center">
+                                <h5 class="grad-link">이화여자대학교 대학원</h5>
+                                <p class="grad-link">석사, 박사</p>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--대구가톨릭 대학원 카드-->
+                    <div class="col-md-3">
+                        <div class="card">
+                            <a href="https://graduate.cu.ac.kr/" class="link-clean">
+                            <img src="images/graduateschool7.jpg" class="card-img-top" alt="대구가톨릭대학교건물">
+                            <div class="card-body text-center">
+                                <h5 class="grad-link">대구가톨릭대학교 대학원</h5>
+                                <p class="grad-link">석사</p>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--부산대학원 카드-->
+                    <div class="col-md-3">
+                        <div class="card">
+                            <a href="https://go.pusan.ac.kr/graduate/main/grad_main.asp" class="link-clean">
+                            <img src="images/graduateschool8.jpg" class="card-img-top" alt="부산대학교건물">
+                            <div class="card-body text-center">
+                                <h5 class="grad-link">부산대학교 대학원</h5>
+                                <p class="grad-link">석사, 박사</p>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 페이지네이션 -->
+        <nav aria-label="대학원 페이지 이동" class="mt-5">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">&lt;</a>
+            </li>
+
+            <li class="page-item active">
+            <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+
+            <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">&gt;</a>
+            </li>
+        </ul>
+        </nav>
+
+
+    </section>
+
+    <!-- 풋터 -->
+    <footer class="mt-auto text-center py-4">
+
+        <!-- SNS 아이콘 -->
+        <div class="mb-3">
+            <a href="#" class="footer-icon mx-3"><i class="bi bi-facebook icon-large me-3"></i></a>
+            <a href="#" class="footer-icon mx-3"><i class="bi bi-instagram icon-large me-3"></i></a>
+            <a href="#" class="footer-icon mx-3"><i class="bi bi-twitter icon-large me-3"></i></a>
+        </div>
+
+        <!-- 연락처 -->
+        <div class="mb-2">
+            <i class="bi bi-telephone-fill"></i> 010-0000-0000
+            <span class="mx-2">·</span>
+            <i class="bi bi-envelope-fill"></i> abcdefg@swu.ac.kr
+        </div>
+
+        <!-- 카피라이트 -->
+        <div class="footer-copy">
+            Copyright © 2025 Designed by 윤지우
+        </div>
+    </footer>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>문정사랑</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        div.box {
+            background-color: #3d82ad;
+            padding: 15px;
+            font-size: 20px;
+            text-align: center;
+            color: white;
+        }
+        div.box a {
+            color: white;
+            text-decoration: none;
+        }
+        div.box a:hover {
+            color: #003852;
+        }
+
+        div.box2{
+            background-color: #92d2c1;
+            padding: 15px;
+        }
+
+        div.box3{
+            background-color: #e4edf3;
+            padding: 15px;
+        }
+    </style>
+
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+<!-- 전체 콘텐츠 시작 -->
+<div class="flex-grow-1">
+
+    <!-- 네비게이션 -->
+
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container">
+             <a class="gugi-font navbar-brand" href="#home">문정사랑</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+                aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="navbar-nav ms-auto my-2">
+                    <li class="nav-item"><a class="nav-link" href="study.html">세부학문</a></li>
+                    <li class="nav-item"><a class="nav-link" href="course.html">진로</a></li>
+                    <li class="nav-item"><a class="nav-link" href="university.html">대학교</a></li>
+                    <li class="nav-item"><a class="nav-link" href="graduateschool.html">대학원</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 헤더 -->
+    <header class="vh-100 text-dark d-flex flex-column justify-content-center align-items-center" id="home">
+        <h1 class="display-3 fw-bold mb-5 lh-base">도서관을 넘어 <br/>세상으로</h1>
+    </header>
+
+    <!-- 문헌정보학 소개 -->
+    <section class="container py-5">
+        <div class="text-center py-5">
+            <h2 class="fw-bold">문헌정보학</h2>
+        </div>
+
+        <div class="row justify-content-center align-items-center mb-5">
+            <div class="col-md-7 col-lg-10 px-lg-10">
+                <h4 class="fw-bold mb-3">한 줄 정의</h4>
+                <p class="lh-lg">문헌을 수집·조직·축적·제공하는 도서관의 제 현상을 인식하고, 그 원칙·이론·기술 등을 조직적이고 체계적으로 연구하는 학문.</p>
+
+                <br/>
+                <h4 class="fw-bold mb-3">상세정보</h4>
+                <div>
+                    문헌정보학은 문헌을 수집·조직·축적·제공하는 도서관의 제 현상을 인식하고, 
+                    그 원칙·이론·기술 등을 조직적이고 체계적으로 연구하는 학문이다. 원래 도서관학으로 불렸다. 
+                    1990년대 도서관학에 응용된 정보학을 통합하면서 새로운 학문체계에 맞는 학명이 필요해 문헌정보학으로 개칭했다.
+                    1946년 4월에 설립된 국립조선도서관학교가 문헌정보학에 관한 교육의 효시이다. 
+                    문헌정보학은 문헌과 관련된 모든 사실이나 현상을 논리적, 과학적으로 규명하고, 
+                    이의 사회적 적용 가능성을 추구하는 독자적 학문으로 성장, 발전하고 있다.
+                </div>
+
+                <br/><br/>
+                <h4 class="fw-bold mb-3">학문구성</h4>
+                <div class="box">
+                    <strong>
+                        문헌정보학 = 
+                        <a href="study.html#study1">도서관학</a> + 
+                        <a href="study.html#study2">정보학</a> + 
+                        <a href="study.html#study3">서지학</a> + 
+                        <a href="study.html#study4">기록관리학</a>
+                    </strong>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</div>
+<!-- 전체 콘텐츠 끝 -->
+
+<!-- 풋터 -->
+
+<footer class="mt-auto text-center py-4">
+
+        <!-- SNS 아이콘 -->
+        <div class="mb-3">
+            <a href="#" class="footer-icon mx-3"><i class="bi bi-facebook icon-large me-3"></i></a>
+            <a href="#" class="footer-icon mx-3"><i class="bi bi-instagram icon-large me-3"></i></a>
+            <a href="#" class="footer-icon mx-3"><i class="bi bi-twitter icon-large me-3"></i></a>
+        </div>
+
+        <!-- 연락처 -->
+        <div class="mb-2">
+            <i class="bi bi-telephone-fill"></i> 010-0000-0000
+            <span class="mx-2">·</span>
+            <i class="bi bi-envelope-fill"></i> abcdefg@swu.ac.kr
+        </div>
+
+        <!-- 카피라이트 -->
+        <div class="footer-copy">
+            Copyright © 2025 Designed by 윤지우
+        </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

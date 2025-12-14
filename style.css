@@ -1,0 +1,141 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f7fcff;
+}
+
+.gugi-font {
+    font-family: 'Gugi', cursive;
+    color: white;
+}
+
+/* 네비게이션 로고 기본 색 */
+.navbar .navbar-brand.gugi-font,
+.navbar .navbar-brand.gugi-font:hover,
+.navbar .navbar-brand.gugi-font:focus,
+.navbar .navbar-brand.gugi-font:active {
+    color: #ffffff !important;
+}
+
+
+
+/*네비게이션 바 */
+.navbar {
+    background-color: #003852; 
+}
+
+.navbar .nav-link {
+    color: #ffffff !important; 
+}
+
+.navbar .nav-link:hover {
+    color: #92d2c1 !important; 
+}
+
+/*top버튼*/
+#topBtn {
+    position: fixed;
+    bottom: 30px;        /* 화면 아래에서 30px */
+    right: 30px;         /* 화면 오른쪽에서 30px */
+    background-color: #3d82ad;
+    color: white;
+    border: none;
+    border-radius: 50px; /* 둥근 버튼 */
+    padding: 12px 18px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#topBtn:hover {
+    background-color: #336f90; /* hover 시 색상 */
+    color: yellow;             /* 글자 색 변경 */
+}
+
+
+/* 헤더 영역 */
+header {
+    background-image: url(images/library.png);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+html {
+    scroll-padding-top: 140px;
+}
+
+#home {
+    padding-top: 140px;
+}
+
+
+
+/*세부학문 영역*/
+
+[id] {
+  scroll-margin-top: 100px; /* 네비게이션 높이만큼 여유 확보 */
+}
+
+/*대학원 영역*/
+/* 카드 전체 링크에 밑줄 제거 */
+.link-clean {
+    text-decoration: none !important;
+    color: inherit;  /* 내부 텍스트 색 유지 */
+}
+
+/* hover 시에도 밑줄 제거 */
+.link-clean:hover {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+/*카드 이미지 크기 고정*/
+.card-img-top {
+    width: 100%;
+    height: 180px;      /* 원하는 고정 높이 */
+    object-fit: cover;  /* 이미지 비율 유지 + 영역에 맞게 잘라냄 */
+}
+
+/*카드 마우스오버*/
+.card {
+    transition: background-color 0.2s ease;
+}
+
+.card:hover,
+.card:hover .card-body {
+    background-color: #f1f1f1;
+}
+
+
+/*페이지*/
+.pagination .page-item.active .page-link {
+    background-color: #45ba89;
+    border-color: #45ba89;
+    color: white;
+}
+
+.pagination .page-link {
+    color: #000;
+}
+
+.pagination .page-link:hover {
+    color: #45ba89;
+}
+
+
+/*풋터 영역*/
+
+/*풋터 배경색*/
+footer {
+    background-color: #003852;
+    color: white;
+}
+
+/* 크게 만들 아이콘 */
+.icon-large {
+    font-size: 2.2rem;   /* 원하는 크기로 조절 가능 */
+    color: white;
+}
+
+footer i {
+    color: white;
+}
